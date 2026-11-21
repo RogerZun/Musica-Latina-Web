@@ -1,17 +1,23 @@
 body{
-            background-color: rgba(35, 8, 167, 0.945);
+            background-color: #F5E9D1;
+            color:#29251F ;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
         }
+    header{
+    background-color: #A84432;
+    text-align: center;
+    padding: 10px;
+    }
         header img {
-            padding: 1%;
-            width: 500px;
-            margin: 2%;
-            border-left: 50px;
-            alignment-baseline: ;
+            width: 550px;
+            height: auto;
+          
         
         }
         ul{
-        background-color: rgb(123, 132, 142);
-        margin: ;
+        background-color: #A84432;
+        margin: 0;
         padding: 1.5%;
         display:flex;
         }
@@ -19,7 +25,7 @@ body{
             font-family: Georgia, 'Times New Roman', Times, serif;
             color: white;
             text-align: center;
-            background-color: black;
+            background-color: #53634B;
             display:inline-block;
             padding: 0.4em 2%;
             margin: 0 0.15em;
@@ -29,48 +35,82 @@ body{
 
         }
         nav li:hover{
-            background-color: rgb(218, 212, 244);
-            color: black;
+            background-color:#E8C98D;
+            color: #29251F;
            
         }
         .Contenedor{
             display: flex;
             justify-content: center;
-            grid-gap: 5px;
-            width: 100%;
+            gap: 12px;
+            padding: 15px;
 
         
         }
        
         .principal{
             flex: 1;
-            background-color: black;
-            color: rgb(92, 92, 92);
-            padding: 2%;
-            border: 0.5em solid;
-            margin: ;
+            background-color: #E8C98D;
+            color:#29251F;
+            padding: 10px;
+            border-radius: 12px;
+            text-align: center;
+            width: 180px;
+            border: 2px solid #A84432;
+
+           
           
 
         }
+        .imatges{
+        width: 100%;
+        height: 150px;
+        border-radius: 8px;
+         
+     }
+     .principal h1{
+    color:#A84432;
+    font-size: 22px; 
+     }
+        
           .principal:hover{
-            background-color: rgb(0, 0, 92);
+            background-color:#F5E9D1;
+            border-color: #53634B;
+            transform: scale(1.02);
             transition: 0.5s;
+            box-shadow: 0px 8px 15px rgba(19, 5, 5, 0.25);
             }
 
-     .imatges{
-        width: 250px;
-        height: 250px;
-     }
+     
         .sub{
-            background-color: rgb(255, 250, 250);
+            background-color: #53634B;
             color: white;
-            padding: 3em;
-            margin: 3em;
+            padding: 3px;
+            margin: 15px;
+            margin-top: 30px;
             border-left: 15em;
+            text-align: center;
+            border-radius: 12px;
 
         }
+        .sub h1 {
+            font-size: 32px;
+            color: #E8C98D;
+        }
+        .sub p {
+        font-size: 18px;
+}
+        .generos {
+            color: #E8C98D;
+            font-weight: bold;
+           
+}
         .enlaces{
-            background-color: white;
+            background-color: #A84432;
+            color: white;
+            padding: 30px;
+            margin: 30px;
+            border-radius: 10px;
             
         }
        
