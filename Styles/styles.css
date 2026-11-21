@@ -1,0 +1,76 @@
+body{
+            background-color: rgba(35, 8, 167, 0.945);
+        }
+        header img {
+            padding: 1%;
+            width: 500px;
+            margin: 2%;
+            border-left: 50px;
+            alignment-baseline: ;
+        
+        }
+        ul{
+        background-color: rgb(123, 132, 142);
+        margin: ;
+        padding: 1.5%;
+        display:flex;
+        }
+        nav li{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: white;
+            text-align: center;
+            background-color: black;
+            display:inline-block;
+            padding: 0.4em 2%;
+            margin: 0 0.15em;
+            text-transform:uppercase;
+            cursor: pointer;
+             border-radius: 1em;
+
+        }
+        nav li:hover{
+            background-color: rgb(218, 212, 244);
+            color: black;
+           
+        }
+        .Contenedor{
+            display: flex;
+            justify-content: center;
+            grid-gap: 5px;
+            width: 100%;
+
+        
+        }
+       
+        .principal{
+            flex: 1;
+            background-color: black;
+            color: rgb(92, 92, 92);
+            padding: 2%;
+            border: 0.5em solid;
+            margin: ;
+          
+
+        }
+          .principal:hover{
+            background-color: rgb(0, 0, 92);
+            transition: 0.5s;
+            }
+
+     .imatges{
+        width: 250px;
+        height: 250px;
+     }
+        .sub{
+            background-color: rgb(255, 250, 250);
+            color: white;
+            padding: 3em;
+            margin: 3em;
+            border-left: 15em;
+
+        }
+        .enlaces{
+            background-color: white;
+            
+        }
+       
