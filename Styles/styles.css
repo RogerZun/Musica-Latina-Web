@@ -113,4 +113,32 @@ body{
             border-radius: 10px;
             
         }
+
+
+.Lista{
+    display: flex;
+            justify-content: center;
+            gap: 12px;
+            padding: 30px;
+
+}
+
+
+
+ .Tarjetas {
+    
+             flex:1;
+            background-color: #E8C98D;
+            color:#29251F;
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+            width: 250px;
+            border: 2px solid #A84432;
+}
+.Tarjetas .titol{
+    background-color: #A84432;
+    border-radius: 5px; ;
+}
+
        
